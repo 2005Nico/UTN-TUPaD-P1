@@ -23,9 +23,9 @@ print(lista[3], lista[-2])
 
 lista = []
 print(lista)
-lista.append(10)
-lista.append(20)
-lista.append(30)
+lista.append("uno")
+lista.append("dos")
+lista.append("tres")
 print(lista)
 
 #############################################################################################################

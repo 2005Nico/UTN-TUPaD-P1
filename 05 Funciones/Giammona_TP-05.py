@@ -1,4 +1,4 @@
-###########################################################################################################
+>###########################################################################################################
 # ACTIVIDAD 1
 # Crear una lista con los números del 1 al 100 que sean múltiplos de 4. Utilizar la función range.
 
@@ -36,19 +36,13 @@ print(lista)
 # animales = ["perro", "gato", "conejo", "pez"]
 
 animales = ["perro", "gato", "conejo", "pez"]
-print(animales)
-animales.remove("gato")
-animales.remove("pez")
-animales.append("loro")
-animales.append("oso")
+animales [1] = "loro"
+animales [3] = "oso"
 print(animales)
 print("##########################")
 animales = ["perro", "gato", "conejo", "pez"]
-print(animales)
-animales.pop(-1)
-animales.insert(3, "oso")
-animales.pop(-3)
-animales.insert(1, "loro")
+animales [-3] = "loro"
+animales [-1] = "oso"
 print(animales)
 
 ##############################################################################################################
@@ -77,11 +71,8 @@ print(lista[0], lista[1])
 # autos = ["sedan", "polo", "suran", "gol"]
 
 autos = ["sedan", "polo", "suran", "gol"]
-print(autos)
-autos.pop(1)
-autos.pop(1)
-autos.insert(1, "citroen_C3")
-autos.insert(2, "megane")
+autos [1] = "aircross"
+autos [2] = "megane"
 print(autos)
 
 ################################################################################################################
@@ -107,24 +98,13 @@ print(dobles)
 # d) Imprimir la lista resultante por pantalla
 
 compras = [["pan", "leche"], ["arroz", "fideos", "salsa"], ["agua"]]
-# print(compras)
 posicion_2_compras = compras[2]
-# print(posicion_2_compras)
 posicion_2_compras.append("jugo")
-# print(posicion_2_compras)
-# print(compras)
-posicion_1_compras = compras[1]
-# print(posicion_1_compras)
-posicion_1_compras.remove("fideos")
-# print(posicion_1_compras)
-posicion_1_compras.insert(1, "tallarines")
-# print(posicion_1_compras)
-# print(compras)
+compras[1][1] = "tallarines"
 posicion_0_compras = compras[0]
-# print(posicion_0_compras)
 posicion_0_compras.remove("pan")
-# print(posicion_0_compras)
 print(compras)
+
 
 ###############################################################################################################
 # ACTIVIDAD 10
